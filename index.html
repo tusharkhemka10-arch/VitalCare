@@ -3,338 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VitalCare - Your Trusted Health Partner</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>VitalCare - Home</title>
+    
+    <link rel="stylesheet" href="css/style.css"> 
+
 </head>
 <body>
     <header>
-        <div>
+        <div class="navbar-container">
             <a href="index.html" class="logo">⚕️ VitalCare</a>
             <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="services.html">Services</a>
-                <a href="contact.html">Contact</a>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
             </nav>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=1200&h=700&fit=crop" alt="Healthcare">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <h1>Your Trusted Health Partner</h1>
-            <p class="hero-tagline">Comprehensive healthcare solutions for a healthier tomorrow</p>
-            <div class="hero-buttons">
-                <a href="contact.html" class="btn-primary">Book Appointment</a>
-                <a href="services.html" class="btn-secondary">Our Services</a>
-                <a href="about.html" class="btn-secondary">Learn More</a>
+    <section class="hero animate-fade">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Your Trusted Partner<br>for a Healthier Life.</h1>
+                <p>Experience modern healthcare designed around you. From online consultations to comprehensive lab tests, we make health simple.</p>
+                <a href="contact.html" class="btn btn-primary">Book Appointment</a>
+                <a href="about.html" class="btn btn-secondary">Learn More</a>
+            </div>
+            <div class="hero-image">
+                <img src="https://plus.unsplash.com/premium_photo-1681843126728-04eab730febe?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWVkaWNhbCUyMHRlYW18ZW58MHx8MHx8fDA%3D" alt="Doctor Team">
             </div>
         </div>
     </section>
 
-    <!-- Stats Section -->
     <section class="stats-section">
         <div class="stats-container">
             <div class="stat-box">
-                <h2 class="stat-number">50,000+</h2>
-                <p class="stat-label">Happy Patients</p>
+                <span class="stat-number">50k+</span>
+                <span class="stat-label">Happy Patients</span>
             </div>
             <div class="stat-box">
-                <h2 class="stat-number">500+</h2>
-                <p class="stat-label">Expert Doctors</p>
+                <span class="stat-number">500+</span>
+                <span class="stat-label">Expert Doctors</span>
             </div>
             <div class="stat-box">
-                <h2 class="stat-number">100+</h2>
-                <p class="stat-label">Health Centers</p>
-            </div>
-            <div class="stat-box">
-                <h2 class="stat-number">24/7</h2>
-                <p class="stat-label">Support Available</p>
+                <span class="stat-number">24/7</span>
+                <span class="stat-label">Emergency Support</span>
             </div>
         </div>
     </section>
 
-    <!-- Service Highlights -->
-    <section class="services-container">
-        <h2 class="section-title">Our Services</h2>
-        <p class="section-subtitle">Comprehensive healthcare solutions tailored to your needs</p>
-        <div class="services-grid">
-            <a href="services.html" class="service-card service-card-link">
-                <div class="service-icon">
-                    <img src="https://www.neoteryx.com/hubfs/shutterstock_293967086%20%282%29.jpg" alt="Lab Tests">
-                </div>
+    <section class="container">
+        <div class="section-header">
+            <h2>Our Services</h2>
+            <p>Comprehensive solutions tailored to your wellness needs.</p>
+        </div>
+        <div class="card-grid">
+            <div class="card">
+                <img src="https://images.pexels.com/photos/8540595/pexels-photo-8540595.jpeg" alt="Lab Tests">
                 <h3>Lab Tests</h3>
-                <p>Comprehensive diagnostic testing with accurate and timely results to help you stay on top of your health.</p>
-                <span class="service-link">Learn More →</span>
-            </a>
-            <a href="services.html" class="service-card service-card-link">
-                <div class="service-icon">
-                    <img src="https://unccn.in/wp-content/uploads/2024/11/senior-woman-video-calling-doctor_274689-5683.jpg" alt="Online Consultation">
-                </div>
-                <h3>Online Consultation</h3>
-                <p>Connect with certified healthcare professionals from the comfort of your home through secure video consultations.</p>
-                <span class="service-link">Learn More →</span>
-            </a>
-            <a href="services.html" class="service-card service-card-link">
-                <div class="service-icon">
-                    <img src="https://pranaamhospitals.com/wp-content/uploads/2021/11/Master-Health-checks.jpg" alt="Health Packages">
-                </div>
-                <h3>Health Packages</h3>
-                <p>Customized health screening packages designed to meet your specific needs and wellness goals.</p>
-                <span class="service-link">Learn More →</span>
-            </a>
-            <a href="services.html" class="service-card service-card-link">
-                <div class="service-icon">
-                    <img src="https://cdn.corporatefinanceinstitute.com/assets/employee-wellness-programs.jpeg" alt="Wellness Programs">
-                </div>
-                <h3>Wellness Programs</h3>
-                <p>Participate in our personalized wellness programs designed to help you achieve your health and fitness goals.</p>
-                <span class="service-link">Learn More →</span>
-            </a>
-        </div>
-        <div class="button-group">
-            <a href="services.html" class="btn-green btn-large">View All Services</a>
-            <a href="contact.html" class="btn-outline btn-large">Get Consultation</a>
+                <p>Accurate diagnostic testing with quick online results.</p>
+                <a href="services.html" class="btn btn-outline">Learn More</a>
+            </div>
+            <div class="card">
+                <img src="https://www.apollotelehealth.com/wp-content/themes/apollo/images/telehealth_doctor.png" alt="Online Consultation">
+                <h3>Virtual Consults</h3>
+                <p>Connect with doctors from the comfort of your home.</p>
+                <a href="services.html" class="btn btn-outline">Learn More</a>
+            </div>
+            <div class="card">
+                <img src="https://www.verywellfit.com/thmb/0tiWc7ggy9ExgWm3z1Ds0R_DIP0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/23-3567098-LotusPose-006-5ff5f5b1550f498cac2ad918f64d04a5.jpg" alt="Wellness">
+                <h3>Wellness Plans</h3>
+                <p>Personalized plans to help you reach your health goals.</p>
+                <a href="services.html" class="btn btn-outline">Learn More</a>
+            </div>
         </div>
     </section>
 
-    <!-- Medical Specialties Section -->
-    <section class="info-section">
-        <h3 class="section-title">Medical Specialties</h3>
-        <p class="section-subtitle">Expert care across various medical disciplines</p>
+    <section class="container" style="background-color: #f9f9f9; border-radius: 20px;">
+        <div class="section-header">
+            <h2>Patient Stories</h2>
+            <p>See what our community has to say about VitalCare.</p>
+        </div>
         <div class="card-grid">
-            <div class="info-card">
-                <h4>Cardiology</h4>
-                <p>Comprehensive heart care and cardiovascular health services with advanced diagnostic tools and expert cardiologists.</p>
-                <a href="contact.html" class="btn-green btn-small">Book Appointment</a>
+            <div class="card" style="text-align: left;">
+                <p>"VitalCare made it so easy to get my blood work done without waiting in lines. Truly modern healthcare!"</p>
+                <h4>- Sarah Johnson</h4>
             </div>
-            <div class="info-card">
-                <h4>Pediatrics</h4>
-                <p>Specialized care for infants, children, and adolescents with compassionate and experienced pediatricians.</p>
-                <a href="contact.html" class="btn-green btn-small">Book Appointment</a>
+            <div class="card" style="text-align: left;">
+                <p>"The online consultation saved me a trip to the ER. The doctor was professional and kind."</p>
+                <h4>- Michael Chen</h4>
             </div>
-            <div class="info-card">
-                <h4>Orthopedics</h4>
-                <p>Expert treatment for bone, joint, and muscle conditions with state-of-the-art orthopedic care.</p>
-                <a href="contact.html" class="btn-green btn-small">Book Appointment</a>
-            </div>
-            <div class="info-card">
-                <h4>Dermatology</h4>
-                <p>Comprehensive skin care services for all skin conditions and cosmetic dermatology treatments.</p>
-                <a href="contact.html" class="btn-green btn-small">Book Appointment</a>
-            </div>
-            <div class="info-card">
-                <h4>Neurology</h4>
-                <p>Advanced neurological care for brain and nervous system disorders with expert neurologists.</p>
-                <a href="contact.html" class="btn-green btn-small">Book Appointment</a>
-            </div>
-            <div class="info-card">
-                <h4>Gynecology</h4>
-                <p>Complete women's health services including routine check-ups and specialized gynecological care.</p>
-                <a href="contact.html" class="btn-green btn-small">Book Appointment</a>
-            </div>
-        </div>
-        <div class="button-group">
-            <a href="services.html" class="btn-outline btn-medium">Explore All Specialties</a>
-            <a href="contact.html" class="btn-green btn-medium">Find a Doctor</a>
-        </div>
-    </section>
-
-    <!-- Why Choose Us Section -->
-    <section class="why-choose-section">
-        <h2 class="section-title">Why Choose VitalCare?</h2>
-        <div class="features-grid">
-            <div class="feature-box">
-                <h3>Expert Care</h3>
-                <p>Board-certified healthcare professionals dedicated to your wellness</p>
-                <a href="about.html" class="feature-link">Read More →</a>
-            </div>
-            <div class="feature-box">
-                <h3>Easy Access</h3>
-                <p>Convenient online consultations and home test services</p>
-                <a href="services.html" class="feature-link">Explore →</a>
-            </div>
-            <div class="feature-box">
-                <h3>Affordable</h3>
-                <p>Transparent pricing with flexible payment options</p>
-                <a href="contact.html" class="feature-link">Get Quote →</a>
-            </div>
-            <div class="feature-box">
-                <h3>Trusted</h3>
-                <p>Thousands of satisfied patients trust VitalCare for their health</p>
-                <a href="about.html" class="feature-link">Learn More →</a>
-            </div>
-        </div>
-        <div class="button-group">
-            <a href="about.html" class="btn-white btn-medium">About Us</a>
-            <a href="contact.html" class="btn-outline btn-medium">Contact Us</a>
-        </div>
-    </section>
-
-    <!-- Health Programs Section -->
-    <section class="services-container">
-        <h2 class="section-title">Health & Wellness Programs</h2>
-        <p class="section-subtitle">Comprehensive programs to improve your health and wellness</p>
-        <div class="features-list">
-            <div class="feature-item">
-                <h4>Weight Management</h4>
-                <p>Personalized weight loss and management programs</p>
-                <a href="contact.html" class="btn-green btn-small">Join Program</a>
-            </div>
-            <div class="feature-item">
-                <h4>Diabetes Care</h4>
-                <p>Comprehensive diabetes management and education</p>
-                <a href="contact.html" class="btn-green btn-small">Join Program</a>
-            </div>
-            <div class="feature-item">
-                <h4>Heart Health</h4>
-                <p>Cardiac rehabilitation and heart health programs</p>
-                <a href="contact.html" class="btn-green btn-small">Join Program</a>
-            </div>
-            <div class="feature-item">
-                <h4>Mental Health</h4>
-                <p>Counseling and mental wellness support services</p>
-                <a href="contact.html" class="btn-green btn-small">Join Program</a>
-            </div>
-            <div class="feature-item">
-                <h4>Prenatal Care</h4>
-                <p>Comprehensive care for expecting mothers</p>
-                <a href="contact.html" class="btn-green btn-small">Join Program</a>
-            </div>
-            <div class="feature-item">
-                <h4>Senior Care</h4>
-                <p>Specialized healthcare services for seniors</p>
-                <a href="contact.html" class="btn-green btn-small">Join Program</a>
-            </div>
-        </div>
-        <div class="button-group">
-            <a href="services.html" class="btn-green btn-large">View All Programs</a>
-            <a href="contact.html" class="btn-outline btn-large">Get Started</a>
-        </div>
-    </section>
-
-    <!-- Quick Actions Section -->
-    <section class="quick-actions-section">
-        <h2 class="section-title">Quick Actions</h2>
-        <p class="section-subtitle">Get started with VitalCare today</p>
-        <div class="actions-grid">
-            <a href="contact.html" class="action-card">
-                <h3>Book Appointment</h3>
-                <p>Schedule your consultation with our experts</p>
-                <span class="action-arrow">→</span>
-            </a>
-            <a href="services.html" class="action-card">
-                <h3>View Services</h3>
-                <p>Explore our comprehensive healthcare services</p>
-                <span class="action-arrow">→</span>
-            </a>
-            <a href="contact.html" class="action-card">
-                <h3>Emergency Care</h3>
-                <p>Get immediate medical assistance</p>
-                <span class="action-arrow">→</span>
-            </a>
-            <a href="services.html" class="action-card">
-                <h3>Health Packages</h3>
-                <p>Choose from our wellness packages</p>
-                <span class="action-arrow">→</span>
-            </a>
-            <a href="contact.html" class="action-card">
-                <h3>Find a Doctor</h3>
-                <p>Search for specialists near you</p>
-                <span class="action-arrow">→</span>
-            </a>
-            <a href="services.html" class="action-card">
-                <h3>Health Records</h3>
-                <p>Access your medical records online</p>
-                <span class="action-arrow">→</span>
-            </a>
-        </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="testimonials-section">
-        <h2 class="section-title">What Our Patients Say</h2>
-        <p class="section-subtitle">Real experiences from our community</p>
-        <div class="testimonials-grid">
-            <div class="testimonial-card">
-                <p class="testimonial-text">"VitalCare has been amazing! The online consultation was so convenient and the doctors were very professional."</p>
-                <p class="testimonial-author">- Sarah Johnson</p>
-            </div>
-            <div class="testimonial-card">
-                <p class="testimonial-text">"The lab tests were quick and results came back faster than expected. Highly recommend!"</p>
-                <p class="testimonial-author">- Michael Chen</p>
-            </div>
-            <div class="testimonial-card">
-                <p class="testimonial-text">"Affordable healthcare that doesn't compromise on quality. VitalCare is my go-to health partner."</p>
-                <p class="testimonial-author">- Emily Davis</p>
-            </div>
-            <div class="testimonial-card">
-                <p class="testimonial-text">"The wellness programs helped me achieve my health goals. The support was incredible!"</p>
-                <p class="testimonial-author">- Robert Wilson</p>
-            </div>
-        </div>
-        <div class="button-group">
-            <a href="about.html" class="btn-green btn-medium">Read More Stories</a>
-            <a href="contact.html" class="btn-outline btn-medium">Share Your Story</a>
-        </div>
-    </section>
-
-    <!-- Health Tips Section -->
-    <section class="info-section">
-        <h3 class="section-title">Health Tips & Advice</h3>
-        <p class="section-subtitle">Expert advice to help you stay healthy</p>
-        <div class="card-grid">
-            <div class="info-card">
-                <h4>Daily Exercise</h4>
-                <p>Regular physical activity is essential for maintaining good health. Aim for at least 30 minutes of exercise daily.</p>
-                <a href="services.html" class="btn-outline btn-small">Learn More</a>
-            </div>
-            <div class="info-card">
-                <h4>Balanced Diet</h4>
-                <p>Eating a variety of nutritious foods helps maintain a healthy weight and reduces the risk of chronic diseases.</p>
-                <a href="services.html" class="btn-outline btn-small">Learn More</a>
-            </div>
-            <div class="info-card">
-                <h4>Regular Check-ups</h4>
-                <p>Preventive care through regular health screenings can detect problems early when they're easier to treat.</p>
-                <a href="contact.html" class="btn-green btn-small">Book Check-up</a>
-            </div>
-            <div class="info-card">
-                <h4>Mental Wellness</h4>
-                <p>Taking care of your mental health is just as important as physical health. Practice stress management daily.</p>
-                <a href="services.html" class="btn-outline btn-small">Learn More</a>
+            <div class="card" style="text-align: left;">
+                <p>"I love the wellness app and the support I get from the nutrition team. Highly recommended."</p>
+                <h4>- Emily Davis</h4>
             </div>
         </div>
     </section>
 
-    <!-- Highlight Box -->
-    <section class="highlight-box">
-        <h3>Emergency Services Available 24/7</h3>
-        <p>Our emergency care team is available round the clock to provide immediate medical assistance. Don't hesitate to reach out in case of emergencies.</p>
-        <div class="button-group">
-            <a href="contact.html" class="btn-white btn-large">Emergency Contact</a>
-            <a href="services.html" class="btn-outline btn-large">Learn More</a>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="cta-section">
-        <div class="cta-content">
-            <h2>Ready to Take Control of Your Health?</h2>
-            <p>Join thousands of patients who trust VitalCare for their healthcare needs</p>
-            <div class="cta-buttons">
-                <a href="contact.html" class="btn-primary btn-large">Get Started Today</a>
-                <a href="services.html" class="btn-secondary btn-large">Learn More</a>
-                <a href="about.html" class="btn-secondary btn-large">About Us</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
     <footer>
-        <p>&copy; 2024 VitalCare. All rights reserved.</p>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h4>VitalCare</h4>
+                <p>Making quality healthcare accessible, affordable, and convenient for everyone.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contact</h4>
+                <p>123 Health Street, Medical City</p>
+                <p>info@vitalcare.com</p>
+                <p>1-800-VITALCARE</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 VitalCare. All rights reserved.</p>
+        </div>
     </footer>
+
 </body>
 </html>
