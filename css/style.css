@@ -13,7 +13,7 @@ body {
     line-height: 1.6;
 }
 
-/* 2. REUSABLE CLASSES (Beginner Friendly) */
+/* reusable areas */
 a {
     text-decoration: none;
     transition: 0.3s;
@@ -29,7 +29,7 @@ img {
     border-radius: 10px;
 }
 
-/* Simple Fade In Animation */
+/* i used this for animations */
 @keyframes simpleFadeIn {
     from {
         opacity: 0;
@@ -47,11 +47,11 @@ img {
     animation-fill-mode: forwards;
 }
 
-/* Buttons */
+/* i used these for buttons */
 .btn {
     display: inline-block;
     padding: 12px 30px;
-    border-radius: 50px; /* Fully rounded like Everly */
+    border-radius: 50px; 
     font-weight: 600;
     font-size: 16px;
     cursor: pointer;
@@ -60,7 +60,7 @@ img {
 }
 
 .btn-primary {
-    background-color: #00695c; /* Deep Teal */
+    background-color: #00695c; 
     color: #ffffff;
 }
 
@@ -70,7 +70,7 @@ img {
 }
 
 .btn-secondary {
-    background-color: #e0f2f1; /* Very Light Teal */
+    background-color: #e0f2f1; 
     color: #00695c;
 }
 
@@ -89,7 +89,7 @@ img {
     color: white;
 }
 
-/* 3. HEADER & NAVIGATION */
+/* header full */
 header {
     background-color: #ffffff;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
@@ -132,7 +132,7 @@ nav a:hover, nav a.active {
     color: #00695c;
 }
 
-/* 4. SECTIONS & LAYOUT */
+/* sections full */
 section {
     padding: 80px 0;
     width: 100%;
@@ -163,9 +163,9 @@ section {
     font-size: 18px;
 }
 
-/* 5. HERO SECTION */
+/* full hero secton */
 .hero {
-    background-color: #f4fdfb; /* Minty white */
+    background-color: #f4fdfb; 
     padding: 60px 0;
     display: flex;
     align-items: center;
@@ -179,7 +179,7 @@ section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap; /* Makes it responsive */
+    flex-wrap: wrap; 
 }
 
 .hero-text {
@@ -213,7 +213,7 @@ section {
     box-shadow: 0 10px 30px rgba(0, 105, 92, 0.15);
 }
 
-/* 6. CARDS (Services, Features, etc.) */
+/* used for all cards */
 .card-grid {
     display: flex;
     flex-wrap: wrap;
@@ -259,7 +259,7 @@ section {
     margin-bottom: 20px;
 }
 
-/* 7. STATS SECTION */
+/* full stats section */
 .stats-section {
     background-color: #00695c;
     color: white;
@@ -290,7 +290,7 @@ section {
     opacity: 0.9;
 }
 
-/* 8. CONTACT PAGE STYLES */
+/* full contact page */
 .contact-wrapper {
     display: flex;
     gap: 50px;
@@ -341,9 +341,9 @@ section {
     background-color: white;
 }
 
-/* 9. FOOTER */
+/* full footer section */
 footer {
-    background-color: #263238; /* Dark Slate */
+    background-color: #263238; 
     color: white;
     padding: 60px 0 20px;
     margin-top: 60px;
@@ -366,7 +366,7 @@ footer {
 }
 
 .footer-col h4 {
-    color: #4db6ac; /* Light Teal Accent */
+    color: #4db6ac; 
     margin-bottom: 20px;
     font-size: 20px;
 }
